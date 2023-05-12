@@ -1035,6 +1035,7 @@ border-color: var(--Primary-Brand-IRIS);
   color: var(--White-background-WHITE);
   background-color: var(--Primary-Brand-IRIS);
   transition: background-color var(--transition);
+  transition: box-shadow var(--transition);
 
   display: block;
 
@@ -1059,4 +1060,5 @@ border-color: var(--Primary-Brand-IRIS);
   color: var(--White-background-WHITE);
   background-color: var(--Pressed-State-OCEAN);
   border: 1px solid transparent;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
