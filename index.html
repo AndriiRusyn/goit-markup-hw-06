@@ -29,7 +29,7 @@
             ><span class="accent">web</span>studio</a>
           <ul class="site-nav list">
             <li class="item site-nav-item">
-              <a href="./studio.html" class="menu-link current link">Studio</a>
+              <a href="./index.html" class="menu-link current link">Studio</a>
             </li>
             <li class="item site-nav-item">
               <a href="./portfolio.html" class="menu-link link">Portfolio</a>
@@ -569,6 +569,10 @@
       </div>
     </footer>
 
+    <!-- modal is here  -->
+
+
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
@@ -576,9 +580,7 @@
             <use href="./images/icons.svg#icon-close-modal"></use>
           </svg>
         </button>
-
-
-        <!-- modal is here  -->
+        <strong class="modal-header">Leave your contacts and we will call you back</strong>
 
         <form class="modal-form">
 
@@ -634,11 +636,11 @@
           <label class="modal-form-field">
             <span class="modal-form-input-desc">Comment</span>
             <textarea 
-                    name="" 
-                    id="" 
+                    class="modal-form-comment"
+                    name="comment" 
+                    id="comment" 
                     cols="30" 
                     rows="10" 
-                    class="modal-form-comment" 
                     placeholder="Text input">
             </textarea>
             </label>
@@ -648,7 +650,7 @@
                     type="checkbox" 
                     name="user_policy" 
                     class="modal-form-check visually-hidden">
-            <label for="user-policy" class="modal-form-check-desc">I accept the terms and conditions of the&nbsp;<a href="">Privacy Policy</a> </label>
+            <label for="user-policy" class="modal-form-check-desc ">I accept the terms and conditions of the&nbsp;<a class="modal-agreement-link" href="">Privacy Policy</a> </label>
             <button type="submit" class="modal-form-submit">Send</button>
 
         </form>
