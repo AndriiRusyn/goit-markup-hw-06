@@ -745,7 +745,7 @@ transform: translate(0, 0);
 .footer-label {
     display: flex;
     align-items: center;
-    margin-right: 12px;
+    margin-right: 24px;
 }
 
 .footer-field {
@@ -1071,7 +1071,6 @@ transform: translate(0, 0);
   padding: 10px 16px; 
   border-radius: 4px;
   transition: border-color var(--transition);
-  transition: color var(--transition);
  }
 
   .modal-form-comment::placeholder {
@@ -1080,6 +1079,7 @@ transform: translate(0, 0);
     font-size: 12px;
     line-height: 1.16;
     letter-spacing: 0.04em;
+    
   }
 
 .modal-form-comment:focus {
